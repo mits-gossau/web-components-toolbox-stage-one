@@ -8,6 +8,11 @@
                 :host .footer-links-row > ul {
                     list-style: none;
                 }
+                @media only screen and (max-width: 767px) {
+                    :host .footer-links-row:not(:last-child) {
+                        border-right: none;
+                    } 
+                }
             </style>
             <div class="footer-links-row">
                 <h4><strong>Park im Grüene Rüschlikon</strong></h4>
