@@ -6,6 +6,7 @@
   */
 /* font tracking */
 @import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=0664bcd0-c491-11ec-9404-069abf4c3446");
+
 :root {
   --color-disabled:var(--m-green-100);
   --color-hover:var(--m-green-600);
@@ -19,7 +20,8 @@
   --footer-default-margin:0 1em 3em 0;
   --header-default-a-logo-top-custom:0;
   --header-default-a-menu-icon-background-color-custom:var(--color);
-  --header-default-background-color-custom: var(--background-color);
-  --header-default-logo-width-custom: 190px;
-  --navigation-default-color-custom: var(--color);
+  --header-default-background-color-custom:var(--background-color);
+  --header-default-border-bottom-custom: 1px solid var(--m-gray-300);
+  --header-default-logo-width-custom:190px;
+  --navigation-default-color-custom:var(--color);
 }
