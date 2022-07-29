@@ -30,6 +30,7 @@
   --h2-font-family: OptimanovaLTW01, sans-serif;
   --h5-font-family: OptimanovaLTW01, sans-serif;
   --header-default-a-logo-top-custom:0;
+  --header-default-a-logo-top-mobile-custom: calc(69px / 2 - 38px / 2);
   --header-default-a-menu-icon-background-color-custom:var(--color);
   --header-default-background-color-custom:var(--background-color);
   --header-default-border-bottom-custom: 1px solid var(--m-gray-300);
