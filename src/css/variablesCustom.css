@@ -18,8 +18,8 @@
 
 :root {
   --color-disabled:var(--m-green-100);
-  --color-hover:var(--m-green-600);
-  --color-secondary:var(--m-green-900);
+  --color-hover:#88B859;
+  --color-secondary: #AACF80;
   --emotion-pictures-with-title-bg-color-custom:var(--m-green-900);
   --font-family-secondary:OptimanovaLTW01, sans-serif;
   --footer-default-a-color-hover:var(--m-green-600);
