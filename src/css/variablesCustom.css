@@ -5,12 +5,13 @@
   * - if a component holds other components you should share the attribute namespace with its children
   */
 /* font tracking */
-@import url("https://cdn.fonts.net/t/1.css?apiType=css&projectid=0664bcd0-c491-11ec-9404-069abf4c3446");
+@import url('https://fast.fonts.net/t/1.css?apiType=css&projectid=5e1f4e69-c0ff-4ea7-9d90-31a60f088f36'); 
 
 
 @font-face{
-	font-family:"OptimanovaLTW01";
-	src:url("https://cdn.migros.ch/ch.migros/static/fonts/optimanova-condensed-medium/OptimaNovaCondensedMedium_normal_condensed.woff2") format("woff2"),url("https://cdn.migros.ch/ch.migros/static/fonts/optimanova-condensed-medium/OptimaNovaCondensedMedium_normal_condensed.woff") format("woff");
+	font-family:"CordaMediumItalic";
+	src:url("https://cdn.migros.ch/ch.migros/static/fonts/Corda/CordaW01MediumItalic.woff2") format("woff2"),
+  url("https://cdn.migros.ch/ch.migros/static/fonts/Corda/CordaW01MediumItalic.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -18,8 +19,8 @@
 
 :root {
   --color-disabled:var(--m-green-100);
-  --color-hover:var(--m-green-600);
-  --color-secondary:var(--m-green-900);
+  --color-hover:#88B859;
+  --color-secondary: #AACF80;
   --emotion-pictures-with-title-bg-color-custom:var(--m-green-900);
   --font-family-secondary:OptimanovaLTW01, sans-serif;
   --footer-default-a-color-hover:var(--m-green-600);
@@ -27,8 +28,8 @@
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-decoration:none;
   --footer-default-a-text-underline-offset:0.3em;
-  --h2-font-family: OptimanovaLTW01, sans-serif;
-  --h5-font-family: OptimanovaLTW01, sans-serif;
+  --h2-font-family: CordaMediumItalic, sans-serif;
+  --h5-font-family: CordaMediumItalic, sans-serif;
   --header-default-a-logo-top-custom:0;
   --header-default-a-logo-top-mobile-custom: calc(69px / 2 - 38px / 2);
   --header-default-a-menu-icon-background-color-custom:var(--color);
@@ -37,5 +38,6 @@
   --header-default-logo-width-custom:190px;
   --navigation-default-color-custom:var(--color);
   --teaser-title-figcaption-background-color: var(--m-white);
-
+  --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.7em 0 0;
+  --teaser-tile-figcaption-color: var(--color-secondary);
 }
