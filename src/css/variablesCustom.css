@@ -40,6 +40,8 @@
   --h4-font-family: CordaMediumItalic, sans-serif;
   --h5-font-family: CordaMediumItalic, sans-serif;
   --h6-font-family: CordaMediumItalic, sans-serif;
+  --h2-font-size: 2em;
+  --h3-font-size: 1.5em;
   --header-default-a-logo-top-custom:0;
   --header-default-a-logo-top-mobile-custom: calc(69px / 2 - 38px / 2);
   --header-default-a-menu-icon-background-color-custom:var(--color);
@@ -52,4 +54,8 @@
   --teaser-tile-figcaption-color: var(--color-secondary);
   --teaser-tile-h5-font-size:1.5em;
   --teaser-title-figcaption-background-color: var(--m-white);
+
+  --hotspot-button-background-color: #ff6600;
+  --hotspot-button-background-color-hover: #AACF80;
+
 }
