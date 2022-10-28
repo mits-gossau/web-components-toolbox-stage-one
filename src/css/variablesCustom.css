@@ -57,5 +57,8 @@
 
   --hotspot-button-background-color: #ff6600;
   --hotspot-button-background-color-hover: #AACF80;
+  --image-hotspot-width: 100vw;
+  --hotspot-picture-img-max-height: var(--image-hotspot-width);
+  --hotspot-picture-img-width: var(--image-hotspot-width);
 
 }
