@@ -20,7 +20,7 @@
 :root {
   --color-hover:#b90334;
   --color-secondary: #D1033B;
-  --emotion-pictures-with-title-bg-background-color-custom: var(--color-secondary);
+  --emotion-pictures-with-title-bg-background-color-custom: transparent;
   --emotion-pictures-with-title-bg-color-custom:var(--m-white);
   --emotion-pictures-with-title-h2-font-family-secondary-custom: var(--font-family-secondary);
   --emotion-pictures-with-title-h2-text-transform-custom: none;
@@ -30,9 +30,11 @@
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-decoration:none;
   --footer-default-a-text-underline-offset:0.3em;
+  --footer-default-boarder-right-custom: none;
   --footer-default-color-hover:var(--color);
-  --footer-default-color:var(--footer-default-invert-color);
-  --footer-default-invert-a-color-hover-custom:var(--m-black);
+  --footer-default-color:var(--m-black);
+  --footer-default-invert-background-color-custom: var(--m-gray-100);
+  --footer-default-invert-color-custom: var(--m-black);
   --h2-font-size: 2em;
   --h3-font-size: 1.5em;
   --header-default-a-logo-top-custom:0;
@@ -45,10 +47,9 @@
   --picture-close-btn-background-color:var(--color-secondary);
   --teaser-plain-background-color-custom: var(--color-secondary);
   --teaser-plain-background-color-hover-custom: var(--color-hover);
-  --teaser-plain-border-radius-custom:0;
+  --teaser-plain-border-radius-custom:4px;
   --teaser-plain-border-radius-mobile-custom:0;
   --teaser-tile-figcaption-bg-color-equal-padding-custom: 0.7em 0 0;
-  --teaser-tile-figcaption-color: var(--color-secondary);
   --teaser-tile-h5-font-size:1.5em;
   --teaser-title-figcaption-background-color: var(--m-white);  
 }
