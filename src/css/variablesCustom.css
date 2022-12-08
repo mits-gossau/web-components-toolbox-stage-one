@@ -30,7 +30,7 @@
   --footer-default-a-text-decoration-hover: underline;
   --footer-default-a-text-decoration:none;
   --footer-default-a-text-underline-offset:0.3em;
-  --footer-default-boarder-right-custom: none;
+  --footer-default-boarder-right: none;
   --footer-default-color-hover:var(--color);
   --footer-default-color:var(--m-black);
   --footer-default-invert-background-color-custom: var(--m-gray-100);
