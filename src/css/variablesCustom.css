@@ -20,10 +20,11 @@
 :root {
   --color-hover:#b90334;
   --color-secondary: #D1033B;
-  --emotion-pictures-with-title-bg-background-color-custom: transparent;
-  --emotion-pictures-with-title-bg-color-custom:var(--m-white);
-  --emotion-pictures-with-title-h2-font-family-secondary-custom: var(--font-family-secondary);
-  --emotion-pictures-with-title-h2-text-transform-custom: none;
+  --emotion-pictures-with-button-color:var(--m-white);
+  --emotion-pictures-with-button-bg-padding: 0;
+  --emotion-pictures-with-button-h2-margin: 0 0 0.5rem;
+  --emotion-pictures-with-title-color:var(--m-white);
+  --emotion-pictures-with-title-h2-margin: 0 0 0.5rem;
   --font-family-secondary:HelveticaNeueW01-55Roma, sans-serif;
   --footer-default-a-color-hover:var(--color);
   --footer-default-a-color:var(--color-secondary);
