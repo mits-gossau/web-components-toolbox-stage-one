@@ -42,6 +42,8 @@
   --header-default-background-color-custom:var(--background-color);
   --header-default-border-bottom-custom: 1px solid var(--m-gray-300);
   --header-default-logo-width-custom:190px;
+  --navigation-default-border-width: 6px;
+  --navigation-default-border-color: var(--color-secondary);
   --navigation-default-color-custom:var(--color);
   --picture-close-btn-background-color:var(--color-secondary);
   --teaser-plain-background-color-custom: var(--color-secondary);
